@@ -1,12 +1,12 @@
 import { Text, View } from "react-native";
 import React from "react";
 
-const red = () => {
+const RedScreen = () => {
   return (
     <View>
-      <Text>red</Text>
+      <Text>This is the red screen</Text>
     </View>
   );
 };
 
-export default red;
+export default RedScreen;

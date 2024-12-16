@@ -36,9 +36,7 @@ export default function AppLayout() {
         name="(tabs)"
         options={{ title: "Color", headerTitle: "deneme", headerShown: false }}
       />
-      <Stack.Screen name="green" options={{ title: "Green" }} />
-      <Stack.Screen name="red" options={{ title: "Red" }} />
-      <Stack.Screen name="blue" options={{ title: "Blue" }} />
+      <Stack.Screen name="(stack)" options={{ title: "Orange" }} />
     </Stack>
   );
 }
