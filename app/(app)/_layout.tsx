@@ -1,4 +1,4 @@
-import { Redirect, Slot, Stack, Tabs } from "expo-router";
+import { Redirect, Stack } from "expo-router";
 import { useSession } from "@/context";
 import * as SplashScreen from "expo-splash-screen";
 import { useEffect } from "react";
