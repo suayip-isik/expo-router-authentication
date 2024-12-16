@@ -32,10 +32,7 @@ export default function AppLayout() {
 
   return (
     <Stack screenOptions={{ headerShown: false }}>
-      <Stack.Screen
-        name="(tabs)"
-        options={{ title: "Color", headerTitle: "deneme", headerShown: false }}
-      />
+      <Stack.Screen name="(tabs)" options={{ title: "Color" }} />
       <Stack.Screen name="(stack)" options={{ title: "Orange" }} />
     </Stack>
   );
