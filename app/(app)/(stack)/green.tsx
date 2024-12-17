@@ -7,8 +7,12 @@ const GreenScreen = () => {
   return (
     <View>
       <Text>This is the green screen</Text>
+      <Text onPress={() => router.push("/(app)/(stack)/blue")}>Go to blue screen</Text>
       <Text onPress={() => router.dismissTo("/(app)/(tabs)")}>
-        Go to blue screen
+        Back to home screen
+      </Text>
+      <Text onPress={() => router.dismissTo("/(app)/(tabs)/explore")}>
+        Back to explore screen
       </Text>
     </View>
   );
