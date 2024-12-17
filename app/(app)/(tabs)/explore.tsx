@@ -1,7 +1,6 @@
-import { useRouter } from "expo-router";
+import { router } from "expo-router";
 import { StyleSheet, View, Text, Button } from "react-native";
 export default function TabTwoScreen() {
-  const router = useRouter();
   return (
     <View style={styles.page}>
       <Text>This is the explore page</Text>

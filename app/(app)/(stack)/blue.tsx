@@ -1,9 +1,8 @@
 import { Text, View } from "react-native";
 import React from "react";
-import { useRouter } from "expo-router";
+import { router } from "expo-router";
 
 const BlueScreen = () => {
-  const router = useRouter();
   return (
     <View>
       <Text>This is the blue screen</Text>

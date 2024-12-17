@@ -1,9 +1,8 @@
 import { View, Text, StyleSheet, Button } from "react-native";
 import { useSession } from "@/context";
-import { useRouter } from "expo-router";
+import { router } from "expo-router";
 
 export default function HomeScreen() {
-  const router = useRouter();
   const { signOut } = useSession();
   return (
     <View style={styles.page}>
